@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Event handling</title>
+</head>
+<body>
+    <p id="bttn">Hello Javascript!</p>
+    <button id="changeBttn">Click me!</button><br><br>
+    <hr>
+
+    <div id="textarea" tabindex="-1">Press here and start typing:</div><br><br>
+    <hr>
+
+    <div id="accordion">
+        <div id="accordion-trigger">Here are some examples :</div>
+        <div id="accordion-content">1.This is an example.</div>
+    </div><br><br>
+    <hr>
+
+    <div id="slideshow">
+        <img src="img1.jpg" height="300" class="image" />
+        <img src="img2.jpg" height="300" class="image"/>
+        <img src="img3.jpg" height="300" class="image"/>
+    </div><br><br>
+    <hr>
+
+    <form>
+        <legend>FORM</legend><br>
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" name="Username" placeholder="Enter your username">
+        <p id="username-error">Username is required</p><br><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" placeholder="Enter your email">
+        <p id="email-error"></p><br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter your password">
+        <p id="password-error">Invalid email address</p><br><br>
+        <button type="submit" id="submit">Submit</button><br><br>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
